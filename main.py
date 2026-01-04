@@ -13,7 +13,7 @@ for numero in tqdm(range(1, 2956)):
         dados = obter_dados(numero)
         df = processar_dados(dados)
         dfs.append(df)
-        time.sleep(0.2)
+        time.sleep(0.0001)
     except Exception as e:
         print(f"Erro no concurso {numero}: {e}")
 
