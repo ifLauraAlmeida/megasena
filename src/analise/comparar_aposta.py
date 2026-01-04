@@ -11,7 +11,7 @@ def comparar_aposta(df, aposta):
         acertos = len(aposta_set & sorteio)
 
         if acertos >= 4:
-            data = pd.to_datetime(row["data_apuracao"], errors="coerce")
+            data = pd.to_datetime(row["data_apuracao"], dayfirst=True, errors="coerce")
 
             resultados.append({
                 "concurso": row["numero_concurso"],
