@@ -5,6 +5,12 @@ Projeto desenvolvido com o objetivo de **praticar e consolidar habilidades em Da
 > ⚠️ Este projeto **não incentiva jogos de azar**.  
 > Ele tem finalidade **educacional**, focada em **engenharia e análise de dados**.
 
+<p align="center">
+  <img src="banner.jpg" width="600">
+</p>
+<p align="center">
+  [Tem mega da virada ou não?!]
+</p>
 ---
 
 ## 🧠 Objetivos do Projeto
@@ -106,7 +112,7 @@ data/processed/megasena.csv
 
 ### 3️⃣ Execute a análise interativa
 
-python src/analise/executar_apostas.py
+python -m src.analise.executar_apostas
 
 ## 💡 Aprendizados
 
